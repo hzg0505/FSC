@@ -1,0 +1,83 @@
+note:
+  use_wandb: True
+  use_backbone: resnet18
+  use_channel_filter_block: True
+  shot: 3
+  dropout: 0
+
+wandb:
+  project: counting
+  entity: hzg
+  # config:
+  #   epochs: &max_epochs
+  #   learning_rate: 
+  #   batchsize:
+
+dataset:
+  batch_size: 1
+  workers: 2
+  shot: 3
+  img_dir: &img_dir /home/zg/benchmark/FSC147_384_V2/images_384_VarV2/
+  density_dir: /home/zg/benchmark/FSC147_384_V2/gt_density_map_adaptive_384_VarV2
+  size: [512, 512] # [h, w]
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  train:
+    meta_file: /home/zg/benchmark/FSC147_384_V2/train.json
+  val:
+    meta_file: /home/zg/benchmark/FSC147_384_V2/val.json
+  test:
+    meta_file: /home/zg/benchmark/FSC147_384_V2/test.json
+
+net:
+  backbone:
+    type: 'resnet18'
+    pretrained_model: '/home/zg/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth'
+    out_layers: [1, 2, 3]
+    out_stride: 4
+    use_ln: False
+  block: 4
+  pool:
+    type: max
+    size: [3, 3]
+  embed_dim: 256
+  mid_dim: 1024
+  head: 8
+  dropout: 0
+  activation: leaky_relu
+  exemplar_scales: [0.8, 1.2]
+  initializer:
+    method: normal
+    std: 0.001
+
+  # shot: 3
+  # match_dim: 512
+  # regressor:
+  #   in_dim: 512
+  #   activation: 'leaky_relu'
+  # init_weight: 
+  #   method: "msra"
+  # out_stride: 4
+
+
+saver:
+  root: /home/zg/save/
+  name: safe_data_gen
+  # log_dir: /home/zg/counting/save/log/
+  # save_dir: /home/zg/counting/save/filter/checkpoint/
+  load_path: '' # /home/zg/counting/save/filter/checkpoint/jupyter_best_val_mae.pt
+
+
+trainer:
+  begin_epoch: 0
+  max_epochs: &max_epochs 200
+  save_every: 5
+  optimizer:
+    type: 'Adam'
+    kwargs:
+      lr: 0.00002
+  lr_scheduler:
+    type: 'StepLR'
+    kwargs:
+      step_size: 80
+      gamma: 0.5

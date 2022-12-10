@@ -1,0 +1,462 @@
+Checkpoint_path  not found!
+| epoch: 0 | learning_rate : 2e-05 |
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:0/3659|GT: 29.0|Pred:  0.0|Error:-29.0|Loss:6.797841933803284e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:1/3659|GT: 10.0|Pred:  5.3|Error: -4.7|Loss:8.237245552322747e-09
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:2/3659|GT: 18.0|Pred: 10.4|Error: -7.6|Loss:5.535854441518495e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:3/3659|GT:  9.0|Pred: 15.6|Error:  6.6|Loss:3.3355898043652132e-09
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:4/3659|GT: 85.0|Pred: 17.7|Error:-67.3|Loss:2.0511206457740627e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:5/3659|GT: 55.0|Pred: 20.9|Error:-34.1|Loss:8.28930524221505e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:6/3659|GT: 28.0|Pred: 24.6|Error: -3.4|Loss:2.6294792121461796e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:7/3659|GT: 97.0|Pred: 28.0|Error:-69.0|Loss:3.039951934624696e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:8/3659|GT: 15.0|Pred: 31.9|Error: 16.9|Loss:2.6961949117776385e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:9/3659|GT: 25.0|Pred: 34.9|Error:  9.9|Loss:5.060309149484965e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:10/3659|GT: 74.0|Pred: 37.4|Error:-36.6|Loss:2.0853211424309848e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:11/3659|GT: 37.0|Pred: 40.3|Error:  3.3|Loss:1.5228255278998404e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:12/3659|GT:108.0|Pred: 42.9|Error:-65.1|Loss:1.2354404361758498e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:13/3659|GT: 13.0|Pred: 46.2|Error: 33.2|Loss:2.36851107615621e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:14/3659|GT: 18.0|Pred: 48.4|Error: 30.4|Loss:3.613491017517845e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:15/3659|GT: 12.0|Pred: 49.8|Error: 37.8|Loss:5.341507858247496e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:16/3659|GT: 12.0|Pred: 50.4|Error: 38.4|Loss:6.788413031699747e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:17/3659|GT: 38.0|Pred: 50.2|Error: 12.2|Loss:1.4984965446274146e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:18/3659|GT: 44.0|Pred: 49.7|Error:  5.7|Loss:1.8644695387592947e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:19/3659|GT: 81.0|Pred: 49.3|Error:-31.7|Loss:3.041096192646364e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:20/3659|GT:  8.0|Pred: 49.4|Error: 41.4|Loss:4.3147966977130636e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:21/3659|GT: 89.0|Pred: 48.8|Error:-40.2|Loss:2.690048290787672e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:22/3659|GT: 12.0|Pred: 49.0|Error: 37.0|Loss:3.646143653668332e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:23/3659|GT: 12.0|Pred: 48.5|Error: 36.5|Loss:4.079647553112409e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:24/3659|GT: 12.0|Pred: 47.5|Error: 35.5|Loss:2.5752902033104874e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:25/3659|GT: 13.0|Pred: 46.0|Error: 33.0|Loss:3.8316336770094495e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:26/3659|GT:  8.0|Pred: 44.1|Error: 36.1|Loss:4.1237203873834005e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:27/3659|GT: 30.0|Pred: 41.9|Error: 11.9|Loss:5.133146530056365e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:28/3659|GT: 14.0|Pred: 39.6|Error: 25.6|Loss:1.8137404467211127e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:29/3659|GT:375.0|Pred: 37.2|Error:-337.8|Loss:1.4630915757152252e-05
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:30/3659|GT: 24.0|Pred: 38.8|Error: 14.8|Loss:2.8150765274403966e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:31/3659|GT: 29.0|Pred: 40.1|Error: 11.1|Loss:2.0072405959581374e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:32/3659|GT: 23.0|Pred: 41.3|Error: 18.3|Loss:1.3002653531657415e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:33/3659|GT: 89.0|Pred: 42.1|Error:-46.9|Loss:7.807564088579966e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:34/3659|GT: 18.0|Pred: 43.3|Error: 25.3|Loss:1.5162754607445095e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:35/3659|GT: 37.0|Pred: 44.2|Error:  7.2|Loss:2.3058370857143018e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:36/3659|GT: 54.0|Pred: 44.9|Error: -9.1|Loss:3.852146619465202e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:37/3659|GT: 14.0|Pred: 45.6|Error: 31.6|Loss:3.5514798213398535e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:38/3659|GT: 16.0|Pred: 46.1|Error: 30.1|Loss:5.0751111757563194e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:39/3659|GT: 24.0|Pred: 46.2|Error: 22.2|Loss:6.616275527449034e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:40/3659|GT: 26.0|Pred: 46.1|Error: 20.1|Loss:1.196342736875522e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:41/3659|GT: 46.0|Pred: 45.8|Error: -0.2|Loss:1.0285703666568224e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:42/3659|GT: 32.0|Pred: 45.6|Error: 13.6|Loss:1.300197425280203e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:43/3659|GT: 58.0|Pred: 45.2|Error:-12.8|Loss:1.7282255271311442e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:44/3659|GT:286.0|Pred: 45.0|Error:-241.0|Loss:1.7617398953007068e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:45/3659|GT: 10.0|Pred: 46.8|Error: 36.8|Loss:4.674652842595606e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:46/3659|GT: 46.0|Pred: 48.1|Error:  2.1|Loss:1.1411412970119272e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:47/3659|GT: 20.0|Pred: 49.2|Error: 29.2|Loss:3.888475674784786e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:48/3659|GT: 14.0|Pred: 50.1|Error: 36.1|Loss:5.2073829692744766e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:49/3659|GT: 92.0|Pred: 50.5|Error:-41.5|Loss:1.4192635262588738e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:50/3659|GT: 35.0|Pred: 51.3|Error: 16.3|Loss:1.2137954286117747e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:51/3659|GT:  9.0|Pred: 51.8|Error: 42.8|Loss:2.9848816751609775e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:52/3659|GT:  9.0|Pred: 51.9|Error: 42.9|Loss:4.1985334320315815e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:53/3659|GT: 16.0|Pred: 51.7|Error: 35.7|Loss:2.6614247872203123e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:54/3659|GT: 63.0|Pred: 51.2|Error:-11.8|Loss:1.0101935288275854e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:55/3659|GT: 36.0|Pred: 50.9|Error: 14.9|Loss:4.360774852329996e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:56/3659|GT: 12.0|Pred: 50.4|Error: 38.4|Loss:4.18135286395227e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:57/3659|GT: 22.0|Pred: 49.7|Error: 27.7|Loss:1.5680006981710903e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:58/3659|GT: 13.0|Pred: 48.8|Error: 35.8|Loss:6.48352056487056e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:59/3659|GT: 16.0|Pred: 47.7|Error: 31.7|Loss:4.316446222674131e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:60/3659|GT: 24.0|Pred: 46.4|Error: 22.4|Loss:3.5328820757740687e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:61/3659|GT: 33.0|Pred: 45.1|Error: 12.1|Loss:4.6700655786935386e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:62/3659|GT: 56.0|Pred: 43.7|Error:-12.3|Loss:2.3341053179137816e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:63/3659|GT:115.0|Pred: 42.6|Error:-72.4|Loss:1.5643981896573678e-05
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:64/3659|GT: 83.0|Pred: 42.3|Error:-40.7|Loss:1.7032433561325888e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:65/3659|GT: 46.0|Pred: 42.3|Error: -3.7|Loss:1.1067979954759721e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:66/3659|GT: 26.0|Pred: 42.4|Error: 16.4|Loss:6.589053214156593e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:67/3659|GT:1001.0|Pred: 42.3|Error:-958.7|Loss:4.519934009294957e-05
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:68/3659|GT:  8.0|Pred: 46.1|Error: 38.1|Loss:2.3835937668081897e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:69/3659|GT:  8.0|Pred: 49.4|Error: 41.4|Loss:4.46466330572548e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:70/3659|GT: 25.0|Pred: 52.2|Error: 27.2|Loss:3.777816459660244e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:71/3659|GT: 10.0|Pred: 54.7|Error: 44.7|Loss:3.863539177473285e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:72/3659|GT: 11.0|Pred: 56.7|Error: 45.7|Loss:4.7818804915777946e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:73/3659|GT: 37.0|Pred: 58.4|Error: 21.4|Loss:5.713552297947899e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:74/3659|GT: 15.0|Pred: 59.8|Error: 44.8|Loss:5.6067715803465035e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:75/3659|GT: 24.0|Pred: 60.9|Error: 36.9|Loss:7.332293705530901e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:76/3659|GT: 14.0|Pred: 61.7|Error: 47.7|Loss:6.202964897283891e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:77/3659|GT:  8.0|Pred: 62.3|Error: 54.3|Loss:8.168811405084853e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:78/3659|GT: 18.0|Pred: 62.5|Error: 44.5|Loss:3.2985678899422055e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:79/3659|GT: 21.0|Pred: 62.6|Error: 41.6|Loss:5.719402906834148e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:80/3659|GT: 11.0|Pred: 62.4|Error: 51.4|Loss:6.268642493978405e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:81/3659|GT: 59.0|Pred: 62.1|Error:  3.1|Loss:9.454373639528058e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:82/3659|GT:100.0|Pred: 61.8|Error:-38.2|Loss:1.9548403997760033e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:83/3659|GT: 13.0|Pred: 61.7|Error: 48.7|Loss:6.002271391025715e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:84/3659|GT: 24.0|Pred: 61.3|Error: 37.3|Loss:3.219491588879464e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:85/3659|GT: 15.0|Pred: 60.9|Error: 45.9|Loss:8.551414509838651e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:86/3659|GT: 15.0|Pred: 60.2|Error: 45.2|Loss:5.9290190534966314e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:87/3659|GT: 11.0|Pred: 59.5|Error: 48.5|Loss:3.752886712504733e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:88/3659|GT:  9.0|Pred: 58.6|Error: 49.6|Loss:5.027974125937362e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:89/3659|GT:156.0|Pred: 57.5|Error:-98.5|Loss:2.1521098005905515e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:90/3659|GT: 63.0|Pred: 57.0|Error: -6.0|Loss:1.0657842608452484e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:91/3659|GT: 50.0|Pred: 56.6|Error:  6.6|Loss:6.290721898949414e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:92/3659|GT:155.0|Pred: 56.2|Error:-98.8|Loss:4.169855401414679e-06
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:93/3659|GT: 18.0|Pred: 56.3|Error: 38.3|Loss:5.775882527814247e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:94/3659|GT: 82.0|Pred: 56.1|Error:-25.9|Loss:1.4474933777819388e-05
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:95/3659|GT: 76.0|Pred: 56.2|Error:-19.8|Loss:3.2229769431069144e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:96/3659|GT: 15.0|Pred: 56.3|Error: 41.3|Loss:6.130477459009853e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:97/3659|GT: 66.0|Pred: 56.2|Error: -9.8|Loss:3.61030402018514e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:98/3659|GT: 12.0|Pred: 56.2|Error: 44.2|Loss:4.81224766701871e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:99/3659|GT: 19.0|Pred: 55.9|Error: 36.9|Loss:1.0798095217978698e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:100/3659|GT:  7.0|Pred: 55.6|Error: 48.6|Loss:3.8151981129885826e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:101/3659|GT: 34.0|Pred: 55.0|Error: 21.0|Loss:6.4166601987381e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:102/3659|GT: 16.0|Pred: 54.3|Error: 38.3|Loss:5.45759490933051e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:103/3659|GT:438.0|Pred: 53.6|Error:-384.4|Loss:5.849463923368603e-05
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:104/3659|GT: 27.0|Pred: 54.7|Error: 27.7|Loss:8.331279133244607e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:105/3659|GT: 11.0|Pred: 55.6|Error: 44.6|Loss:4.2159012281217656e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:106/3659|GT: 11.0|Pred: 56.2|Error: 45.2|Loss:4.296381916901737e-08
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:107/3659|GT: 82.0|Pred: 56.5|Error:-25.5|Loss:2.9264543854878866e-07
+torch.float32
+torch.float32
+torch.float32
+[TRAIN]|Epoch:0|Iter:108/3659|GT: 60.0|Pred: 56.9|Error: -3.1|Loss:7.411476588004007e-08
+Traceback (most recent call last):
+  File "train_val.py", line 215, in <module>
+    main()
+  File "train_val.py", line 188, in main
+    train_loss, train_mae, train_rmse = train_epoch(loader[0], net, optimizer, epoch, device)
+  File "train_val.py", line 47, in train_epoch
+    outputs = net(images, boxes.squeeze(0))
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zg/FSC/networks/safe.py", line 76, in forward
+    output = self.safecount(
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zg/FSC/networks/safe.py", line 125, in forward
+    output = block(output, feat_boxes)
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zg/FSC/networks/safe.py", line 151, in forward
+    tgt2 = self.aggt(query=tgt, keys=src, values=src)
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zg/FSC/networks/safe.py", line 253, in forward
+    feat = F.conv2d(
+KeyboardInterrupt

@@ -1,0 +1,129 @@
+{
+    "os": "Linux-5.4.0-113-generic-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-12-10T17:05:41.560204",
+    "startedAt": "2022-12-10T17:05:39.374615",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_val.py",
+    "codePath": "train_val.py",
+    "git": {
+        "remote": "git@github.com:hzg0505/FSC.git",
+        "commit": null
+    },
+    "email": "hzg0505@163.com",
+    "root": "/home/zg/FSC",
+    "host": "ASIC-ZTY",
+    "username": "zg",
+    "executable": "/home/zg/anaconda3/envs/notebook/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3165.7721875,
+        "min": 800.0,
+        "max": 4925.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1657.603,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1745.787,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2586.945,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4111.875,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4790.6,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3988.288,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1643.103,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4807.225,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 3888.231,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1931.306,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1142.644,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 1766.952,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4781.728,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4738.92,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2282.134,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4789.014,
+            "min": 800.0,
+            "max": 4900.0
+        }
+    ],
+    "disk": {
+        "total": 915.3975067138672,
+        "used": 630.0417327880859
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 31.190780639648438
+    }
+}

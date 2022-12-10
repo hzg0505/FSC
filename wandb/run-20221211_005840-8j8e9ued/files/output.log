@@ -1,0 +1,17 @@
+Checkpoint_path  not found!
+| epoch: 0 | learning_rate : 2e-05 |
+torch.float32
+torch.float64
+torch.float64
+Traceback (most recent call last):
+  File "train_val.py", line 215, in <module>
+    main()
+  File "train_val.py", line 188, in main
+    train_loss, train_mae, train_rmse = train_epoch(loader[0], net, optimizer, epoch, device)
+  File "train_val.py", line 52, in train_epoch
+    loss.backward()
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: Found dtype Double but expected Float
