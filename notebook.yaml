@@ -12,6 +12,22 @@ wandb:
   #   epochs: &max_epochs
   #   learning_rate: 
   #   batchsize:
+  sweep_config:
+    method: bayes                   # 搜索方法 # random
+    name: safe_sweep
+    metric:                             # 优化指标
+      name: val_loss
+      goal: minimize
+    parameters:                     # 参数边界，超参空间
+      lr:            
+        min: 0.000001
+        max: 0.001
+      dropout:
+        min: 0
+        max: 0.5
+      epochs:
+        min: 80
+        max: 150
 
 dataset:
   batch_size: 1

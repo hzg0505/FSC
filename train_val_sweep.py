@@ -132,16 +132,34 @@ def load_obj(cfg):
 parser = argparse.ArgumentParser(description="class-agnostic counting")
 parser.add_argument( "-c", "--config", type=str, default="/home/zg/FSC/notebook.yaml", help="Path of config")
 
+sweep_config = {
+    'method': 'bayes',
+    'name': 'safe_sweep',
+    'metric': {'goal': 'maximize', 'name': 'val_loss'},
+    'parameters': 
+    {
+        'epochs': {'values': [80, 100, 120]},
+        'lr': {'values': [0.000002, 0.00002, 0.0002]},
+        'dropout': {'values': [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]}
+     }
+}
+
+
 def main():
     args = parser.parse_args(args=[])
     with open(args.config) as f:
         cfg = EasyDict(yaml.load(f, Loader=yaml.FullLoader))
-
-    wandb.init(project="counting", entity="hzg")
-    wandb.config = { "learning_rate": cfg.trainer.optimizer.kwargs.lr, "epochs": cfg.trainer.max_epochs,}
+    run = wandb.init(project="counting", entity="hzg")
+    lr  =  wandb.config.lr
+    epochs = wandb.config.epochs
+    dropout = wandb.config.dropout
+    cfg.net.dropout = dropout
+    cfg.trainer.optimizer.kwargs.lr = lr
+    cfg.trainer.max_epochs = epochs
 
     # 1. 数据、模型、优化器
     loader, net, optimizer, lr_scheduler = load_obj(cfg)
+
 
     # 2. 参数
     max_epochs = cfg.trainer.max_epochs
@@ -150,7 +168,7 @@ def main():
     best_rmse = np.inf
     save_every = cfg.trainer.save_every
 
-    device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
+    device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     net.to(device)
 
     # 3. 预训练，断点续训
@@ -190,5 +208,10 @@ def main():
         wandb.log({"train_mae": train_mae, "val_mae": val_mae}, commit=False)
         wandb.log({"train_rmse": train_rmse, "val_rmse": val_rmse})
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+
+
+sweep_id = wandb.sweep(sweep=sweep_config, project='counting')
+print(sweep_id) # zxbsmsaz
+wandb.agent(sweep_id, function=main, count=4)
+

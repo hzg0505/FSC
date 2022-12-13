@@ -1,0 +1,13 @@
+program: train_val_sweep.py
+method: bayes                   # 搜索方法 # random
+name: safe_sweep
+metric:                             # 优化指标
+  name: val_mse
+  goal: minimize
+parameters:                     # 参数边界，超参空间
+  lr:            
+    values: [0.000002, 0.00002, 0.0002]
+  dropout:
+    values: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+  epochs:
+    values: [80, 100, 120]
