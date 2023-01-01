@@ -6,7 +6,8 @@ import numpy as np
 
 # 数据集提供的密度图
 from data.dataloader import build_dataloader
-from networks.safe import build_network
+# from networks.safe import build_network
+from networks.net import build_network
 from utils.optim_helper import get_optimizer, get_scheduler
 from utils.checkpoint_helper import load_checkpoint, save_checkpoint
 import wandb
@@ -43,7 +44,8 @@ def train_epoch(t_loader, net, optimizer, epoch, gpu_id, factor=255.0):
 
         # 前向+反向
         optimizer.zero_grad()
-        outputs = net(images, boxes.squeeze(0))
+        # outputs = net(images, boxes.squeeze(0))
+        outputs = net(images, boxes)
         loss = torch.nn.MSELoss()(outputs, densitys)
         loss.backward()
         optimizer.step()
@@ -87,7 +89,8 @@ def val(v_loader, net, gpu_id, factor=255.0):
             densitys = densitys.unsqueeze(1)*factor  # 1, 1, 512, 512
 
             # 前向传播
-            outputs = net(images, boxes[0])
+            # outputs = net(images, boxes[0])
+            outputs = net(images, boxes)
             loss = torch.nn.MSELoss()(outputs, densitys)
 
             # 结果
@@ -130,7 +133,8 @@ def load_obj(cfg):
     return loader, net, optimizer, lr_scheduler
 
 parser = argparse.ArgumentParser(description="class-agnostic counting")
-parser.add_argument( "-c", "--config", type=str, default="/home/zg/FSC/notebook.yaml", help="Path of config")
+# parser.add_argument( "-c", "--config", type=str, default="/home/zg/FSC/notebook.yaml", help="Path of config")
+parser.add_argument( "-c", "--config", type=str, default="/home/zg/FSC/config.yaml", help="Path of config")
 
 def main():
     args = parser.parse_args(args=[])
