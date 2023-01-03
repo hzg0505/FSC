@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train_val.py", line 198, in <module>
+    main()
+  File "train_val.py", line 148, in main
+    loader, net, optimizer, lr_scheduler = load_obj(cfg)
+  File "train_val.py", line 119, in load_obj
+    net = build_network(cfg.net)
+  File "/home/zg/FSC/networks/net.py", line 224, in build_network
+    return Model(**net_cfg)
+TypeError: __init__() got an unexpected keyword argument 'backbone'

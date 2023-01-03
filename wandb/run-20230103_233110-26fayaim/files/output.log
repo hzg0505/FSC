@@ -1,0 +1,50 @@
+Checkpoint_path  not found!
+| epoch: 0 | learning_rate : 2e-05 |
+[TRAIN]|Epoch:0|Iter:0/3659|GT: 24.0|Pred: 82.1|Error: 58.1|Loss:0.0072305756621062756
+[TRAIN]|Epoch:0|Iter:1/3659|GT: 26.0|Pred: 71.9|Error: 45.9|Loss:0.006039058789610863
+[TRAIN]|Epoch:0|Iter:2/3659|GT: 40.0|Pred: 62.0|Error: 22.0|Loss:0.008495476096868515
+[TRAIN]|Epoch:0|Iter:3/3659|GT: 16.0|Pred: 56.5|Error: 40.5|Loss:0.004723184276372194
+[TRAIN]|Epoch:0|Iter:4/3659|GT: 15.0|Pred: 44.6|Error: 29.6|Loss:0.003326443489640951
+[TRAIN]|Epoch:0|Iter:5/3659|GT: 70.0|Pred: 41.1|Error:-28.9|Loss:0.009009921923279762
+[TRAIN]|Epoch:0|Iter:6/3659|GT: 24.0|Pred: 36.7|Error: 12.7|Loss:0.0031723049469292164
+[TRAIN]|Epoch:0|Iter:7/3659|GT: 21.0|Pred: 33.5|Error: 12.5|Loss:0.0033104505855590105
+[TRAIN]|Epoch:0|Iter:8/3659|GT: 13.0|Pred: 27.0|Error: 14.0|Loss:0.0017111924244090915
+[TRAIN]|Epoch:0|Iter:9/3659|GT: 62.0|Pred: 29.9|Error:-32.1|Loss:0.008151240646839142
+[TRAIN]|Epoch:0|Iter:10/3659|GT:  8.0|Pred: 20.2|Error: 12.2|Loss:0.0006519131711684167
+[TRAIN]|Epoch:0|Iter:11/3659|GT: 40.0|Pred: 31.0|Error: -9.0|Loss:0.004094305448234081
+[TRAIN]|Epoch:0|Iter:12/3659|GT: 10.0|Pred: 18.9|Error:  8.9|Loss:0.0009878213750198483
+[TRAIN]|Epoch:0|Iter:13/3659|GT: 40.0|Pred: 30.0|Error:-10.0|Loss:0.003980834968388081
+[TRAIN]|Epoch:0|Iter:14/3659|GT:115.0|Pred: 26.1|Error:-88.9|Loss:0.15299302339553833
+[TRAIN]|Epoch:0|Iter:15/3659|GT: 18.0|Pred: 30.8|Error: 12.8|Loss:0.004861270543187857
+[TRAIN]|Epoch:0|Iter:16/3659|GT: 48.0|Pred: 30.9|Error:-17.1|Loss:0.00543379969894886
+[TRAIN]|Epoch:0|Iter:17/3659|GT: 51.0|Pred: 28.2|Error:-22.8|Loss:0.002129577798768878
+[TRAIN]|Epoch:0|Iter:18/3659|GT: 20.0|Pred: 40.7|Error: 20.7|Loss:0.0027233536820858717
+[TRAIN]|Epoch:0|Iter:19/3659|GT: 18.0|Pred: 31.8|Error: 13.8|Loss:0.0020264447666704655
+[TRAIN]|Epoch:0|Iter:20/3659|GT: 18.0|Pred: 38.4|Error: 20.4|Loss:0.0032753590494394302
+[TRAIN]|Epoch:0|Iter:21/3659|GT:  9.0|Pred: 24.2|Error: 15.2|Loss:0.0017582107102498412
+[TRAIN]|Epoch:0|Iter:22/3659|GT: 10.0|Pred: 27.8|Error: 17.8|Loss:0.0012770178727805614
+[TRAIN]|Epoch:0|Iter:23/3659|GT: 14.0|Pred: 30.9|Error: 16.9|Loss:0.0017426125705242157
+[TRAIN]|Epoch:0|Iter:24/3659|GT: 63.0|Pred: 23.7|Error:-39.3|Loss:0.008013727143406868
+[TRAIN]|Epoch:0|Iter:25/3659|GT:146.0|Pred: 28.5|Error:-117.5|Loss:0.3089058995246887
+[TRAIN]|Epoch:0|Iter:26/3659|GT: 51.0|Pred: 22.6|Error:-28.4|Loss:0.01895291358232498
+[TRAIN]|Epoch:0|Iter:27/3659|GT:  8.0|Pred: 41.5|Error: 33.5|Loss:0.002251744270324707
+[TRAIN]|Epoch:0|Iter:28/3659|GT: 31.0|Pred: 22.0|Error: -9.0|Loss:0.006075476296246052
+[TRAIN]|Epoch:0|Iter:29/3659|GT: 17.0|Pred: 25.4|Error:  8.4|Loss:0.0018820983823388815
+[TRAIN]|Epoch:0|Iter:30/3659|GT: 12.0|Pred: 29.5|Error: 17.5|Loss:0.0017714924179017544
+[TRAIN]|Epoch:0|Iter:31/3659|GT: 21.0|Pred: 37.8|Error: 16.8|Loss:0.002995780436322093
+Traceback (most recent call last):
+  File "train_val.py", line 198, in <module>
+    main()
+  File "train_val.py", line 171, in main
+    train_loss, train_mae, train_rmse = train_epoch(loader[0], net, optimizer, epoch, device)
+  File "train_val.py", line 48, in train_epoch
+    outputs = net(images, boxes)
+  File "/home/zg/anaconda3/envs/notebook/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/zg/FSC/networks/net.py", line 194, in forward
+    feat_orig, exemplars_list = self.exemplar_scale_aug(image, boxes_orig)
+  File "/home/zg/FSC/networks/net.py", line 78, in __call__
+    feat_boxes = self.crop_roi_feat(feat_, boxes_, out_stride=self.out_stride)
+  File "/home/zg/FSC/networks/net.py", line 42, in crop_roi_feat
+    y_tl, x_tl, y_br, x_br = int(y_tl), int(x_tl), int(y_br), int(x_br)
+KeyboardInterrupt
